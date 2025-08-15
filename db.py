@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker
 from datetime import datetime
 
 # Подключение к базе данных (создаем файл sausage_bot.db)
-engine = create_engine('sqlite:///sausage_bo.db')
+engine = create_engine('sqlite:///sausage_bot.db')
 Base = declarative_base()
 
 # Определение модели пользователя
